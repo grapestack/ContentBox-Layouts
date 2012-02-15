@@ -31,11 +31,11 @@
 	<base href="#getSetting('htmlBaseURL')#/" />
 	
 	<!--- styles --->
-	<link href="#cb.layoutRoot()#/includes/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="#cb.layoutRoot()#/includes/css/bootstrap.css" rel="stylesheet" type="text/css" />
 	
 	<!--- javascript --->
 	<script type="text/javascript" src="#cb.layoutRoot()#/includes/js/jquery.tools.min.js"></script>
-	<script type="text/javascript" src="#cb.layoutRoot()#/includes/js/default.js"></script>
+	<script type="text/javascript" src="#cb.layoutRoot()#/includes/js/bootstrap.js"></script>
 	
 	<!--- ContentBoxEvent --->
 	#cb.event("cbui_beforeHeadEnd")#
